@@ -4,10 +4,10 @@ function insert_Row() {
     const leftCell = document.createElement('td');
     const rightCell = document.createElement('td');
     
-    leftCell.textContent = ''; 
+    leftCell.innerText = ''; 
     
-    leftCell.textContent = 'New Cell1'; 
-    rightCell.textContent = 'New Cell2';
+    leftCell.innerText = 'New Cell1'; 
+    rightCell.innerText = 'New Cell2';
     
     newRow.appendChild(leftCell);
     newRow.appendChild(rightCell);

@@ -1,17 +1,15 @@
 function insert_Row() {
-    //Write your code here
-	 const table = document.getElementById('sampleTable');
+
+	const table = document.getElementById('sampleTable');
     
     const newRow = document.createElement('tr');
     
     const leftCell = document.createElement('td');
     const rightCell = document.createElement('td');
-    leftCell.textContent = 'New Cell1';
+    leftCell.textContent = 'New Cell1'; // Set the text content to 'New Cell1'
     rightCell.textContent = 'New Cell2';
     newRow.appendChild(leftCell);
     newRow.appendChild(rightCell);
     
     table.insertBefore(newRow, table.firstChild);
-  
-  
 }
